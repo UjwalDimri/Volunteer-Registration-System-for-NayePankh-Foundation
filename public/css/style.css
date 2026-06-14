@@ -1,0 +1,143 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#f8f9fa,#e9f5ff);
+    min-height:100vh;
+}
+
+/* Navbar */
+.navbar{
+    background:#198754 !important;
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:600;
+}
+
+/* Main Card */
+.container-box{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    margin-top:50px;
+}
+
+/* Headings */
+h1{
+    color:#198754;
+    font-weight:700;
+}
+
+h3{
+    color:#0d6efd;
+}
+
+/* Form */
+.form-control{
+    border-radius:12px;
+    padding:12px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border:2px solid #198754;
+}
+
+/* Buttons */
+.btn-success{
+    border-radius:12px;
+    padding:12px 25px;
+    transition:0.3s;
+}
+
+.btn-success:hover{
+    transform:translateY(-3px);
+}
+
+.btn-primary{
+    border-radius:12px;
+}
+
+.btn-warning{
+    color:white;
+}
+
+/* Table */
+.table{
+    margin-top:30px;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+thead{
+    background:#198754;
+    color:white;
+}
+
+tbody tr{
+    transition:0.3s;
+}
+
+tbody tr:hover{
+    background:#f1f8ff;
+}
+
+/* Cards */
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Login Box */
+.login-box{
+    width:450px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer{
+    margin-top:50px;
+    text-align:center;
+    color:gray;
+    padding:20px;
+}
+
+body{
+    background: linear-gradient(
+        135deg,
+        #f5f7fa 0%,
+        #c3cfe2 100%
+    );
+}
+
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600");
+    
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}

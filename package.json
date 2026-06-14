@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.22.5",
+    "node": "^26.3.0",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.0"
+  },
+  "name": "volunteer-registration-system-for-nayepankh-foundation",
+  "version": "1.0.0",
+  "description": "A Full Stack Web Application built for **NayePankh Foundation** to digitize and simplify volunteer registration and management. The application allows volunteers to register online while providing administrators with tools to manage volunteer data efficiently.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UjwalDimri/Volunteer-Registration-System-for-NayePankh-Foundation.git"
+  },
+  "keywords": [],
+  "author": "Ujwal Dimri",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/UjwalDimri/Volunteer-Registration-System-for-NayePankh-Foundation/issues"
+  },
+  "homepage": "https://github.com/UjwalDimri/Volunteer-Registration-System-for-NayePankh-Foundation#readme"
+}

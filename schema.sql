@@ -1,0 +1,14 @@
+CREATE DATABASE nayepankh;
+
+USE nayepankh;
+
+CREATE TABLE volunteers(
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100),
+email VARCHAR(100),
+phone VARCHAR(15),
+college VARCHAR(100),
+skills VARCHAR(255),
+interest VARCHAR(255),
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
