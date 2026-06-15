@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^17.4.2",
     "ejs": "^6.0.1",
     "express": "^5.2.1",
     "method-override": "^3.0.0",
@@ -14,7 +15,9 @@
   "description": "A Full Stack Web Application built for **NayePankh Foundation** to digitize and simplify volunteer registration and management. The application allows volunteers to register online while providing administrators with tools to manage volunteer data efficiently.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node app.js",
+  "dev": "nodemon app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
